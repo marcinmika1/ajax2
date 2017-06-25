@@ -34,7 +34,7 @@ function pobiezDane() {
                 userName.innerHTML = 'Nazwa użytkownika: ' + returnData.userName;
                 
                 var userURL=document.createElement('p');
-                userURL.innerHTML = 'URL użytkownika: ' + (returnData.userURL);
+                userURL.innerHTML = 'URL użytkownika: <a href="http://'+ returnData.userURL +'"'  + '>' + returnData.userURL + '</a>';
                 
                 /*DODAWANIE ZMIENNEJ BY SIE WYSWIETLALA NA STRONIE */
                 
